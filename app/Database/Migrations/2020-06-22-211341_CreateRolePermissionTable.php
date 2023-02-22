@@ -41,6 +41,6 @@ class CreateRolePermissionTable extends Migration
 
 	public function down()
 	{
-		$this->forge->dropTable('role_permission');
+		$this->forge->dropTable('role_permissions');
 	}
 }
