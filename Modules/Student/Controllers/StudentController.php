@@ -10,4 +10,29 @@ class StudentController extends BaseController
     {
         echo "Lol";
     }
+
+    public function create()
+    {
+
+    }
+
+    public function store()
+    {
+
+    }
+
+    public function edit($id)
+    {
+
+    }
+
+    public function update()
+    {
+
+    }
+
+    public function delete($id)
+    {
+
+    }
 }
