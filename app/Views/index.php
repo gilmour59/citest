@@ -1,3 +1,10 @@
 Hello world
+<?php
+    //dd($students);
+?>
 
-<?= $test ?>
+<?php 
+    foreach($students as $student){
+        echo $student['name'];
+    }
+?>

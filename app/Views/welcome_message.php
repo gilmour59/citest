@@ -216,7 +216,11 @@
 		</ul>
 	</div>
 
-	<div class="heroe">			
+	<div class="heroe">	
+		<?php
+			helper(['custom']);
+			echo getStringLength('asd');
+		?>		
 
 		<h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
 

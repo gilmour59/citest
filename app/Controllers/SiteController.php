@@ -3,15 +3,23 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Libraries\MyLibrary;
 use App\Models\StudentModel;
 
 class SiteController extends BaseController
 {
     public function index()
     {
-        return view('index', [
-            'test' => 'test'
-        ]);
+        $library = new MyLibrary;
+
+        $students = $library->allStudents();
+
+        print_r($students);
+
+        print_r($library->convertToSlug('Hello World'));
+        /* return view('index', [
+            'students' => $students
+        ]); */
     }
 
     public function insertStudent()
