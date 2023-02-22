@@ -5,7 +5,7 @@ namespace Modules\Student\Database\Seeds;
 use CodeIgniter\Database\Seeder;
 use Faker\Factory;
 
-//php spark db:seed Modules\\Student\\Database\\Seeds\\StudentSeeder
+//php spark db:seed Modules\Student\Database\Seeds\StudentSeeder
 class StudentSeeder extends Seeder
 {
     public function run()
