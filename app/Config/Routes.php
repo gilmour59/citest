@@ -38,6 +38,8 @@ $routes->get('site/insert-student', 'SiteController::insertStudent');
 $routes->get('site/update-student', 'SiteController::updateStudent');
 $routes->get('site/delete-student', 'SiteController::deleteStudent');
 
+$routes->get('student', '\Modules\Student\Controllers\StudentController::index');
+
 $routes->get("login", "Login::index");
 $routes->get("setcookie", "Home::setCookie");
 $routes->get("getcookie", "Home::getCookie");

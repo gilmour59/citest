@@ -62,7 +62,7 @@ class AuthFilter implements FilterInterface
                 "is_super_admin" => $decoded->is_super_admin
             ]));
             if (isset($arguments) && count($arguments) > 0) {
-                helper('Modules\Auth\Auth');
+                //helper('Modules\Auth\Auth');
                 foreach ($arguments as $permission) {
                     if (!hasPermission($permission)) {
                         $response = service('response');
