@@ -46,6 +46,7 @@ class Autoload extends AutoloadConfig
         'Modules\Auth' => ROOTPATH . 'Modules/Auth',
         'Modules\Image' => ROOTPATH . 'Modules/Image',
         'Modules\Student' => ROOTPATH . 'Modules/Student',
+        'Modules\Device' => ROOTPATH . 'Modules/Device',
         // 'Modules/Image' => ROOTPATH . 'Modules/Image'
     ];
 
