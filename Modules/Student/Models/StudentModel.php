@@ -18,7 +18,8 @@ class StudentModel extends Model
                                     'name',
                                     'email',
                                     'description',
-                                    'mobile'
+                                    'mobile',
+                                    'profile_image'
                                 ];
 
     // Dates

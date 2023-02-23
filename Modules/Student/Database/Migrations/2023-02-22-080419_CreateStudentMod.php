@@ -35,6 +35,11 @@ class CreateStudentMod extends Migration
                 'constraint' => '255',
                 'null' => true
             ],
+            "profile_image" => [
+				"type" => "VARCHAR",
+				"constraint" => 150,
+				"null" => true
+			],
             'created_at' => [
                 'type' => 'TIMESTAMP',
                 'null' => true
