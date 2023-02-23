@@ -14,7 +14,10 @@ class DeviceModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = [
+        'name',
+        'type'
+    ];
 
     // Dates
     protected $useTimestamps = false;
